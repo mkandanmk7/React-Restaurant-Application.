@@ -143,3 +143,35 @@ nav .menu-btn,
   color: #3d2514;
   border: 1px solid #bf2222;
 }
+
+#products {
+  width: 100%;
+  height: 120vh;
+  box-sizing: border-box;
+  font-family: "Lato";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  background-color: #ffffff;
+}
+#products h1 {
+  font-family: "Alfa Slab One";
+  letter-spacing: 2px;
+  color: #3d2514;
+  font-size: 3rem;
+}
+#products p {
+  font-family: "Bebas Neue";
+  letter-spacing: 1px;
+  color: #3d2514;
+  font-size: 0.8rem;
+  margin-top: -15px;
+  margin-bottom: 35px;
+}
+.a-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
