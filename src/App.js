@@ -4,6 +4,7 @@ import { css } from "@emotion/react";
 
 import "./App.css";
 import Navbar from "./Components/Navbar";
+import Home from "./Components/Home";
 
 function App() {
   //states
@@ -40,6 +41,7 @@ function App() {
       ) : (
         <>
           <Navbar />
+          <Home />
         </>
       )}
     </div>
