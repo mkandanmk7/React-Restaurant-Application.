@@ -1,0 +1,25 @@
+.loginContainer {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.innerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+  width: 500px;
+  background: rgb(160, 60, 60);
+}
+input {
+  padding: 10px;
+  margin: 10px;
+}
+button {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+}
