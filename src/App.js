@@ -7,6 +7,7 @@ import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import Product from "./Components/Product";
 import About from "./Components/About";
+import Contact from "./Components/Contact";
 
 function App() {
   //states
@@ -46,6 +47,7 @@ function App() {
           <Home />
           <Product />
           <About />
+          <Contact />
         </>
       )}
     </div>
